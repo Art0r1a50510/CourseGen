@@ -75,62 +75,39 @@
                 </div>
 
                 <!-- Support Grid -->
-                <div class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2">
-                    <!-- Contact Form -->
-                    <div class="rounded-xl border border-graphite-gray/20 bg-white p-8">
-                        <h2 class="mb-6 text-2xl font-bold text-cobblestone-blue">Свяжитесь с нами</h2>
-                        <form class="space-y-6">
-                            <div>
-                                <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Ваше имя</label>
-                                <input class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="Введите ваше имя" type="text"/>
-                            </div>
-                            <div>
-                                <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Email адрес</label>
-                                <input class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="your@email.com" type="email"/>
-                            </div>
-                            <div>
-                                <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Тема обращения</label>
-                                <select class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue focus:outline-none focus:ring-2 focus:ring-primary/50">
-                                    <option>Техническая проблема</option>
-                                    <option>Вопрос по функционалу</option>
-                                    <option>Предложение по улучшению</option>
-                                    <option>Другое</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Сообщение</label>
-                                <textarea class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="Опишите вашу проблему или вопрос..." rows="5"></textarea>
-                            </div>
-                            <button class="flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-xl bg-primary px-6 py-4 text-base font-bold leading-normal tracking-wide text-cobblestone-blue transition-transform hover:scale-105" type="submit">
-                                <span class="material-symbols-outlined">send</span>
-                                Отправить сообщение
-                            </button>
-                        </form>
-                    </div>
-
-                    <!-- FAQ -->
-                    <div class="rounded-xl border border-graphite-gray/20 bg-white p-8">
-                        <h2 class="mb-6 text-2xl font-bold text-cobblestone-blue">Частые вопросы</h2>
-                        <div class="space-y-6">
-                            <div>
-                                <h3 class="mb-2 text-lg font-semibold text-cobblestone-blue">Какие форматы видео поддерживаются?</h3>
-                                <p class="text-graphite-gray"></p>
-                            </div>
-                            <div>
-                                <h3 class="mb-2 text-lg font-semibold text-cobblestone-blue">Сколько времени занимает создание курса?</h3>
-                                <p class="text-graphite-gray"></p>
-                            </div>
-                            <div>
-                                <h3 class="mb-2 text-lg font-semibold text-cobblestone-blue">Можно ли редактировать сгенерированные материалы?</h3>
-                                <p class="text-graphite-gray"></p>
-                            </div>
-                            <div>
-                                <h3 class="mb-2 text-lg font-semibold text-cobblestone-blue">Есть ли ограничения по длине видео?</h3>
-                                <p class="text-graphite-gray"></p>
-                            </div>
+                    <div class="mb-16">
+                        <!-- Contact Form -->
+                        <div class="mx-auto max-w-2xl rounded-xl border border-graphite-gray/20 bg-white p-8">
+                            <h2 class="mb-6 text-2xl font-bold text-cobblestone-blue">Свяжитесь с нами</h2>
+                            <form class="space-y-6">
+                                <div>
+                                    <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Ваше имя</label>
+                                    <input class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="Введите ваше имя" type="text"/>
+                                </div>
+                                <div>
+                                    <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Email адрес</label>
+                                    <input class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="your@email.com" type="email"/>
+                                </div>
+                                <div>
+                                    <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Тема обращения</label>
+                                    <select class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue focus:outline-none focus:ring-2 focus:ring-primary/50">
+                                        <option>Техническая проблема</option>
+                                        <option>Вопрос по функционалу</option>
+                                        <option>Предложение по улучшению</option>
+                                        <option>Другое</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="mb-2 block text-sm font-medium text-cobblestone-blue">Сообщение</label>
+                                    <textarea class="w-full rounded-lg border border-graphite-gray/20 bg-white px-4 py-3 text-cobblestone-blue placeholder:text-graphite-gray focus:outline-none focus:ring-2 focus:ring-primary/50" placeholder="Опишите вашу проблему или вопрос..." rows="5"></textarea>
+                                </div>
+                                <button class="flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-xl bg-primary px-6 py-4 text-base font-bold leading-normal tracking-wide text-cobblestone-blue transition-transform hover:scale-105" type="submit">
+                                    <span class="material-symbols-outlined">send</span>
+                                    Отправить сообщение
+                                </button>
+                            </form>
                         </div>
                     </div>
-                </div>
 
                 <!-- Additional Help -->
                 <div class="rounded-xl border border-graphite-gray/20 bg-gray-50 p-8">
@@ -166,6 +143,4 @@
         </main>
     </div>
 </body>
-
 </html>
-
